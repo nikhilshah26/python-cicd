@@ -23,4 +23,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            pytest -v --cov=stack
+            pytest test_stack.py --junitxml=reports.xml
