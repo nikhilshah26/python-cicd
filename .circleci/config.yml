@@ -23,4 +23,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            pytest /tests/test_stack.py --junitxml=reports.xml
+            pytest /home/circleci/repo/tests/test_stack.py --junitxml=reports.xml
