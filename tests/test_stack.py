@@ -30,3 +30,10 @@ def test_pop(stack):
     assert stack.pop() == "world"
     assert stack.pop() == "hello"
     assert stack.pop() is None
+
+def test_pushpop(stack):
+    stack.push("test")
+    stack.push("demo")
+    assert stack.pop() == "test"
+    assert stack.pop() == "demo"
+    assert stack.pop() is None
