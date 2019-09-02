@@ -27,4 +27,4 @@ jobs:
       - store_test_results:
           path: test-results
       - store_artifacts:
-          path: test-reports/stack
+          path: test-results
