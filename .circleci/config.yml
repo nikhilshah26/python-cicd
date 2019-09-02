@@ -26,3 +26,5 @@ jobs:
             pytest /home/circleci/repo/tests/test_stack.py --junitxml=/home/circleci/repo/test-results/stack/reports.xml
       - store_test_results:
           path: test-results
+      - store_artifacts:
+          path: test-reports
